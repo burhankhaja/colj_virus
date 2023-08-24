@@ -1,19 +1,15 @@
 
 
-initial path: 
-C:\Users\HP-Pc\Desktop\sare.wav
-
-backup is created in 5050RRY dir
-
 base command:
-powershell -c (New-Object Media.SoundPlayer "C:\Users\HP-Pc\Desktop\sare.wav").PlaySync();
+powershell -c (New-Object Media.SoundPlayer "C:\ABSOLUTE_PATH_TO_FILE\FILE.WAV").PlaySync();
 
-powershell -c "while (1==1) { (New-Object Media.SoundPlayer 'C:\Users\HP-Pc\Desktop\sare.wav').PlaySync(); Start-Sleep -Seconds 5; }"
+#ONLY .WAV SUPPORTED
+
 
 
 
 FINAL:
-powershell -c "while (1) { (New-Object Media.SoundPlayer 'C:\Users\HP-Pc\Desktop\sare.wav').PlaySync(); Start-Sleep -Seconds 60; }"
+powershell -c "while (1) { (New-Object Media.SoundPlayer C:\ABSOLUTE_PATH_TO_FILE\FILE.WAV').PlaySync(); Start-Sleep -Seconds 60; }"
 
 
 
