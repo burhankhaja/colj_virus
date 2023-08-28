@@ -1,5 +1,9 @@
+NEW
+powershell -c "while (1) { Start-Sleep -Seconds 600; (New-Object Media.SoundPlayer C:\ABSOLUTE_PATH_TO_FILE\FILE.WAV').PlaySync(); }"
 
 
+
+================================================================================================
 base command:
 powershell -c (New-Object Media.SoundPlayer "C:\ABSOLUTE_PATH_TO_FILE\FILE.WAV").PlaySync();
 
